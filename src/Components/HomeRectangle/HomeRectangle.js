@@ -1,7 +1,12 @@
 import React from 'react'
+import './HomeRectangle.css'
  
-function HomeRectangle (){
+export default function HomeRectangle (props){
     return (
-        <div className = 'rectangle'> </div>
+            <div className = 'rectangle'>
+                <p className = 'home-text'>
+                    {props.children}
+                </p>
+            </div>
     )
-}
+} 

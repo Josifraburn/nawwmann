@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import phrases from './phrases';
-import randomNumber from './randomNumber';
-import Box from './box';
-import css from './main.css'
+import css from '../styles/index.css';
+import Routes from './config/Routes';
 
 
 class App extends React.Component {
-
+    render () {
+        return (
+            <Routes />
+        )
+    }
 }
 
 
