@@ -9,7 +9,7 @@ export default function HomeContainer () {
             <Link to='/about'>
                 <HomeRectangle> ABOUT </HomeRectangle>
             </Link>
-            <Link to='/style'>
+            <Link to='/size'>
                 <HomeRectangle> SHOP </HomeRectangle>
             </Link>
         </div>

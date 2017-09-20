@@ -3,10 +3,7 @@ import './Square.css'
 
 export default function Square (props) {
     return (
-        <div className = 'square' style={{
-            height: props.height,
-            width: props.width,
-        }}>
+        <div className = 'square'>
             <p className = 'square-text'>
                 {props.children}
             </p>            
