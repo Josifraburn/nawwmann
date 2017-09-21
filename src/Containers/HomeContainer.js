@@ -6,13 +6,12 @@ import {Link} from 'react-router-dom'
 export default function HomeContainer () {
     return (
         <div className = 'rectangle-container'>
-            <Link to='/about'>
+            <Link to='/about' className='home-text'>
                 <HomeRectangle> ABOUT </HomeRectangle>
             </Link>
-            <Link to='/size'>
+            <Link to='/size' className='home-text'>
                 <HomeRectangle> SHOP </HomeRectangle>
             </Link>
-        </div>
-        
+        </div>   
     )
 }

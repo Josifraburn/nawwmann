@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    width: 20vh;
+    height: 25vh;
+    width: 25vh;
     margin-left: 50px;
     margin-right: 50px; 
     background-color: white;
@@ -16,3 +16,15 @@
     font-size: 5vh;
 }
 
+.square:hover {
+    height: 27vh;
+    width: 27vh;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.square:hover .square-text{
+    font-size: 6vh;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+}

@@ -2,3 +2,15 @@
     display: flex;
     justify-content: center;
 }
+
+.home-text {
+    text-decoration: none;
+}
+
+.home-text:link {
+    color: black;
+}
+
+.home-text:visited {
+    color: black;
+}
